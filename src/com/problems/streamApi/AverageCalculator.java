@@ -1,10 +1,9 @@
 package com.problems.streamApi;
 
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class AverageCalculator {
     //Given a list of employees find avg salary by age range
