@@ -1,4 +1,4 @@
-package com.problems.leetcode.concurrency;
+package com.problems.concurrency;
 
 public class FooBar {
     private int n ;

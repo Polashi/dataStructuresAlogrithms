@@ -1,4 +1,4 @@
-package com.problems.leetcode.concurrency;
+package com.problems.concurrency;
 
 import java.util.concurrent.Semaphore;
 
