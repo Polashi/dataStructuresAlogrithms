@@ -3,6 +3,7 @@ package com.problems.streamApi;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.OptionalDouble;
 
 
 public class AverageCalculator {
@@ -13,8 +14,8 @@ public class AverageCalculator {
 //        List<String> list = Arrays.asList("Bibbo", "Aball", "Mboll", "Ballon");
 //        list.stream().filter(s -> s.startsWith("B")).forEach(System.out::println);
         List<Integer> numbers = Arrays.asList(1,2,3,4,5,6);
-        int sum = numbers.stream().filter(a -> a%2==0).mapToInt(a -> a*a).sum();
-        System.out.println(sum);
+        OptionalDouble sum = numbers.stream().filter(a -> a%2==0).mapToInt(a -> a*a).average();
+        System.out.println(sum.getAsDouble());
     }
 
 
