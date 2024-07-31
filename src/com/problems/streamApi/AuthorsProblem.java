@@ -2,7 +2,6 @@ package com.problems.streamApi;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class AuthorsProblem {
     public static void main(String[] args) {
